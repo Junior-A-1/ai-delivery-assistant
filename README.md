@@ -29,11 +29,14 @@ Driver is near Sydney CBD. Your rider reported: "Restaurant will take 25 minutes
 ```bash
 pip install fastapi uvicorn
 python -m uvicorn main:app --reload
+```
 
 ### Mobile App 
+```bash
+cd mobile-app/AIDelivery
 npm install
 npx react-native run-android
-
+```
 
 ## Note
 OpenAI and Google Maps integrations are implemented but currently commented out to avoid API costs during development. The system is designed to be AI-ready and can be enabled anytime.
